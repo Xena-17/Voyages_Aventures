@@ -1,15 +1,16 @@
-connexion.php : <?php
+ <?php
     session_start();
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
 </head>
 <body>
+    <a href=deconnexion.php>se déconnecter</a><br>
     <form method="post" action="">
         <label for="email">Email</label>
         <input type="email" name="email" id="email"><br>
@@ -20,7 +21,7 @@ connexion.php : <?php
         <input type="submit" value="Envoyer">
     </form>
 
-    <a href="./inscription.php">S'inscrire</a>
+    <a href="./inscription.php">S'inscrire</a><br>
 </body>
 </html>
 
